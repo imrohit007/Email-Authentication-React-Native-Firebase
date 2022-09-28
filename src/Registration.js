@@ -13,7 +13,7 @@ const Registration = () => {
         .then(() => {
           firebase.auth().currentUser.sendEmailVerification({
             handleCodeInApp: true,
-            url: 'https://test-aea73.firebaseapp.com',
+            url: 'https://expo-33883.firebaseapp.com',
            })
           .then(() => {
                 alert("Email sent")
